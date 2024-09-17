@@ -1,0 +1,59 @@
+:root {
+  font-size: 62.5%;
+
+  /*Fonts --- Font-Famyly*/
+
+  --font-archivo: 'Archivo', system-ui;
+
+  --h1: 900 2.4rem/135% var(--font-archivo);
+  --h2: 900 1.6rem/140% var(--font-archivo);
+  --h3: 900 1.4rem/140% var(--font-archivo);
+  --text: 400 1.6rem/140% var(--font-archivo);
+  --text-small: 400 1.4rem/145% var(--font-archivo);
+  --span: 600 1.4rem/145% var(--font-archivo);
+
+  /*Colors Background*/
+  --bg-color: #0f172a;
+  --stroke-color: #1e293b;
+
+  /*Text span*/
+
+  --brand-color-light: #60a5fa;
+  --brand-color-dark: #1d4ed8;
+
+  /*Text p*/
+
+  --text-color-primary: #f1f5ff;
+  --text-color-secondary: #cbd5e1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  color: var(--text-color-primary);
+  font: var(--text);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+#app {
+  padding: 0 3.2rem 8rem;
+}
+
+a {
+  text-decoration: none;
+  font: var(--text-small);
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--brand-color-light);
+}
+
+ul {
+  list-style: none;
+}

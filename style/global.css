@@ -57,3 +57,21 @@ a:hover {
 ul {
   list-style: none;
 }
+
+
+.container {
+  max-width: 120rem;
+  padding-inline: 3.2rem;
+  margin-inline: auto;
+}
+
+/* utility - First*/
+
+.grid {
+  display: grid;
+}
+
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}

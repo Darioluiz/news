@@ -1,0 +1,25 @@
+#primary {
+  padding-block: 2.6rem;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    cursor: pointer;
+  }
+
+  div:nth-child(2) {
+    margin-inline: auto;
+  }
+
+  div:nth-child(3) {
+    justify-self: end;
+  }
+}
+
+#secondary {
+  border: 1px solid var(--stroke-color);
+  border-inline: none;
+  padding-block: 1.4rem;
+  justify-content: space-between;
+}

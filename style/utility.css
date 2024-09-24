@@ -26,6 +26,7 @@
 
 .text-lg {
   font: var(--h3);
+  color: var(--text-color-primary);
 }
 
 .text-sml {

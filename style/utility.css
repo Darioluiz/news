@@ -15,3 +15,30 @@
 .gap-16px {
   gap: 1.6rem;
 }
+
+.text-2xl {
+  font: var(--h1);
+}
+
+.text-xl {
+  font: var(--h2);
+}
+
+.text-lg {
+  font: var(--h3);
+}
+
+.text-sml {
+  font: var(--text-small);
+}
+
+.tag-span {
+  font: var(--span);
+  color: var(--text-color-primary);
+  background-color: var(--brand-color-dark);
+  letter-spacing: 0.04em;
+  border-radius: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.25);
+  text-transform: uppercase;
+}

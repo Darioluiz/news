@@ -10,7 +10,7 @@
   --h3: 900 1.4rem/140% var(--font-archivo);
   --text: 400 1.6rem/140% var(--font-archivo);
   --text-small: 400 1.4rem/145% var(--font-archivo);
-  --span: 600 1.4rem/145% var(--font-archivo);
+  --span: 400 1.4rem/145% var(--font-archivo);
 
   /*Colors Background*/
   --bg-color: #0f172a;

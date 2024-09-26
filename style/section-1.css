@@ -1,4 +1,27 @@
 main {
+  header {
+    padding-block: 1.2rem 2.4rem;
+    border-top: 1px solid var(--stroke-color);
+
+    a {
+      justify-self: end;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    span {
+      background-image: url(/assets/Arrow.svg);
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+
+    a:hover {
+      span {
+        background-image: url(/assets/ArrowRight1.svg);
+      }
+    }
+  }
+
   margin-top: 4rem;
   img {
     width: 100%;
@@ -39,5 +62,31 @@ main {
     h2 {
       margin-top: 0.8rem;
     }
+  }
+
+  #section-2 {
+    margin-block: 8rem;
+
+    & > div {
+      grid-template-columns: repeat(4, 29.2rem);
+    }
+
+    figure span {
+      position: relative;
+      top: 3.4rem;
+      left: 0.8rem;
+    }
+
+    img {
+      height: 16rem;
+    }
+  }
+}
+
+#section-3 {
+  gap: 3.2rem;
+
+  header {
+    width: 69.6rem;
   }
 }

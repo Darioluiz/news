@@ -54,7 +54,8 @@ img {
   max-width: 100%;
 }
 
-a:hover {
+a:hover,
+strong:hover {
   color: var(--brand-color-light);
 }
 

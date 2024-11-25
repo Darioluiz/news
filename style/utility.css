@@ -25,7 +25,7 @@
 }
 
 .text-lg {
-  font: var(--h3);
+  font: var(--text-small);
   color: var(--text-color-primary);
 }
 
